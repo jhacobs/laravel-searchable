@@ -1,5 +1,8 @@
 # Laravel searchable
 
+![Packagist Version](https://img.shields.io/packagist/v/jhacobs/laravel-searchable)
+![GitHub PHP Workflow](https://github.com/jhacobs/laravel-searchable/actions/workflows/php.yml/badge.svg)
+
 Search through models with laravel searchable
 
 
