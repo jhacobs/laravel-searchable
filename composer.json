@@ -1,0 +1,51 @@
+{
+    "name": "jhacobs/laravel-searchable",
+    "description": "Search through models",
+    "keywords": [
+        "laravel",
+        "laravel-searchable"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Aretz",
+            "email": "jacob.aretz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/database": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.21",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jhacobs\\Searchable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jhacobs\\Searchable\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jhacobs\\Searchable\\SearchableServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
